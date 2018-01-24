@@ -11,13 +11,14 @@ function setup(){
     money.play();
     createCanvas(1200, 600);
     colorMode(HSB, 100);
-    img = loadImage('assets/incentivized_mesh_color.png');
+    img = loadImage('assets/incentivized_mesh_color_no_alpha.png');
 }
 
 function draw(){
-    tint(h, 50, 100, 75);
+    clear()
+    tint(h, 100, 100, 90);
     background(img);
-    h+=5;
+    h+=1;
     if(h >= 100){
        h = 0; 
     }
