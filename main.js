@@ -18,7 +18,7 @@ function draw(){
     clear()
     tint(h, 100, 100, 90);
     background(img);
-    h+=1;
+    h+=5;
     if(h >= 100){
        h = 0; 
     }
